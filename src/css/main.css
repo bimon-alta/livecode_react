@@ -1,0 +1,419 @@
+/*================================================ BIMON =============================================================== */
+
+
+/* BODY */
+.index-body{
+    /* padding-top: 88px;
+    color: #272772;
+    font-family: "SFCompactDisplay"; */
+    /* background-image: url("../img/bg-img.png"); */
+    background-size: cover;
+
+    padding-top: 88px;
+    color: #272772;
+    font-family: "SFCompactDisplay";
+}
+
+.index-body h1,
+.index-body h2,
+.index-body h3,
+.index-body h4,
+.index-body h5,
+.index-body h6{
+    font-family: "Muli";
+}
+
+.main-content{
+    height: 100vh;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.home-foto img{
+    /* width: 355px;
+    height: 355px; */
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.home-button-contact{
+    color: white;
+    background: #F47522;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.home-text{
+    font-family: "Roboto";
+}
+
+.home-text p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.home-text h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.home-text h3{
+    font-size: 35px;
+}
+@media (max-width: 810px){
+    .index-body{
+        padding-top: 135px;
+    }
+}
+
+
+/* ====================================================================================== */
+
+/* ===============contact.html================== */
+.contact-body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+    background-attachment: fixed;
+}
+/* LEFT SIDE */
+.bg-full{
+    padding: 0px;
+    margin-right: 5%;
+}
+.left{
+    /* background-image: url("../img/bg-contact.jpg"); */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 41%;
+    background-size: cover;
+    padding: 0px;
+    position: fixed;
+}
+.bg-blue{
+    background-color: #19345E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.65;
+    height: 100vh;
+    
+}
+.bg-blue .image{
+    /* background-image: url('../img/logo-ALTA-v2.png'); */
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+/* RIGTH SIDE */
+.right {
+    padding-top: 4%;
+    display: block;
+    height: 100%;
+}
+.contact-us {
+    font-size: 23px;
+    margin-bottom: 5%;
+    display: block;
+}
+.form select {
+    display: block;
+    width: 100%;
+}
+.form textarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.form input {
+    width: 100%;
+    display: block;
+}
+.form #submit {
+    width: 20%;
+    height: 43px;
+    border:1px solid #F47522;
+    background: #F47522;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.form #submit:hover{
+    color: white;
+}
+#asterisk {
+    color: red;
+}
+@media (max-width: 992px){
+    .left{
+        display: none;
+    }
+}
+/* ========================== EXPERIENCE.html ============================== */
+.list-experience {
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    margin: 60px 78px;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+.list-experience h1 {
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #19345E;
+}
+.exp-ul {
+    border-left: 1px solid #acacac;
+}
+.exp-ul li {
+    position: relative;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #19345E;
+    border-radius: 5px;
+    background:#19345E;
+    position: absolute;
+    left: -6px;
+    top: 50%;
+}
+.periode {
+    text-align: left;
+    color: #acacac;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.experience-desc {
+    border-top: 1px solid #acacac;
+    font-family: 'Roboto', sans-serif;
+    color: #19345E;
+}
+.list-experience:hover{
+    box-shadow: 0px 7px 15px #C3C3C343;
+    width: 100%;
+    height: 100%;
+}
+.experience-header {
+    padding: 10px 0;
+    border-bottom: 1px solid #ececec;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.experience-body{
+    padding-top: 88px;
+    color: #272772;
+    font-family: "SFCompactDisplay";
+}
+
+/* ========================BIMON========================= */
+/*==================== aboutme.html================== */
+/* PAGE TITLE  */
+
+.about-body{
+    padding-top: 88px;
+    color: #272772;
+    font-family: "SFCompactDisplay";
+}
+
+
+.page-title-background{
+    background-color: #F4F7FC;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+
+.page-title h1{
+    font-family: "Muli";
+    font-size: 32px;
+    padding: 50px 0;
+    font-weight: bold;
+}
+
+.about-me-content .education h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Muli";
+}
+
+.about-me-content__short-desc{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.about-me-content .education li{
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+} 
+
+.about-me-content .header{
+    font-size: 17px;
+    font-weight: bold;
+} 
+
+.about-me-content .detail{
+    font-size: 15px;
+} 
+
+/* about Foto */
+.img-container{
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+.img-container .foto1 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.img-container .fotodot img{
+    height: 80px;
+    width: 90px;
+    position: absolute;
+    top: 200px;
+    right: 220px;
+}
+
+
+/* table work experience */
+.work-exp h2{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Muli';
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.table {
+    border: 1px solid #707070;
+}
+.table td {
+    color: #19345E;
+    font-family: 'Muli';
+}
+
+.home-button-contact:hover{
+    /* background: white; */
+    color: #4b4643;    
+    text-decoration: none;
+}
+
+
+/* -------------   HEADER FOOTER ALL ---------------------------------------- */
+/* header{
+    padding: 10px 0;
+    border-bottom: 1px solid #ececec;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    box-shadow: 0px 3px 6px #C1C3C736;
+    
+
+}
+
+.header-nav{
+    display: table;
+    margin-left: auto;
+}
+
+.header-nav__list{
+    margin: 0;
+}
+
+.header-nav__list li{    
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-nav__list li a{
+    font-family: "Muli";
+    font-size: 15px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #19345E
+}
+
+.header-nav__list li a:hover{
+    color: #F47522;
+}
+
+.header-nav__list li .active-page{
+    color : #F47522;
+}
+@media (max-width: 810px){
+    .header-nav__list li a{
+        font-family: "Muli";
+        font-size: 13px;
+        padding: 0 5px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #19345E
+    }
+} */
+
+
+/* FOOTER */
+.experience-footer {
+    background-color: #19345E;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.span-socmed {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.span-copyright {
+    color:white;
+    font-family: 'Muli';
+}
+ul.footer-socmed {
+    display:flex;
+    justify-content: center;
+}
+.footer-socmed li{
+    padding: 10px;
+}
+.footer-image img {
+    width: 110px;
+    height: 57px;
+}
+.footer-image {
+    align-items: center;
+    display: flex;
+}
+.copyright {
+    border-left: 1px solid white;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+}
+/* MEDIA QUERY FOOTER */
+@media (max-width: 755px){
+    .footer-image{
+        display: flex;
+        justify-content: center;
+    }
+}
